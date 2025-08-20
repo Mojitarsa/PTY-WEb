@@ -1,0 +1,63 @@
+.contact {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  padding: 12px 30px;
+  background-color: rgb(51, 177, 62);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact button:hover {
+  background-color: #2a9134;
+}
+
+/* Navbar */
+nav {
+  background-color: rgb(14, 194, 74);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo img {
+  height: 100px; /* adjust logo size */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 80px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: navy;
+}
